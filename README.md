@@ -1,4 +1,4 @@
-# Tic Tac Toe with Python
+# Tic Tac Toe with Pygame
 
 This project is a complete **Tic Tac Toe game** written in **Python** using **Pygame**.
 It uses separate files for game logic, rendering (GUI), and configuration.
