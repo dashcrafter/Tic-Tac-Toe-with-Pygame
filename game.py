@@ -19,7 +19,7 @@ class Game:
     def check_winner(self):
         b = self.board
 
-        # Reihen & Spalten prüfen
+        # Check rows & columns
         for i in range(3):
             if b[i][0] == b[i][1] == b[i][2] != "":
                 self.winner = b[i][0]
@@ -28,7 +28,7 @@ class Game:
                 self.winner = b[0][i]
                 return
 
-        # Diagonalen prüfen
+        # Check diagonals
         if b[0][0] == b[1][1] == b[2][2] != "":
             self.winner = b[0][0]
         elif b[0][2] == b[1][1] == b[2][0] != "":
